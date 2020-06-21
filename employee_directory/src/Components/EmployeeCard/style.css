@@ -21,17 +21,11 @@
     height: 150px;
     width: 150px;
   }
-
-  .col-md-8 {
-    padding-right: 0;
-  }
   
   .card-body {
     font-size: 15px;
-    width: 40%; 
+    width: 60%; 
     vertical-align: center;
-    border: 4px;
-    border-color: rgb(7, 53, 20);
   }
   
 .card-body > ul {
@@ -39,9 +33,22 @@
     background:rgb(27, 112, 51);
     color: whitesmoke;
     font-size: 21px;
-
-
+    padding-top: 20px;
   }
+
+.nameCard {
+  vertical-align: center;
+  width: 100%; 
+
+}
+
+.nameCard > ul {
+  height: 100px;
+  background:rgb(27, 112, 51);
+  color: whitesmoke;
+  font-size: 21px;
+  padding-top: 5px;
+}
   
 
   

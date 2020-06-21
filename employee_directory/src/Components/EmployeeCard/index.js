@@ -9,8 +9,20 @@ function EmployeeCard(props) {
           <div className="col-md-4 img-container">
               <img  alt={props.name} src={props.image} />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-4">
               <div className="card-body">
+                <ul>
+                    <li>
+                      <strong>Email:</strong> {props.email}
+                    </li>
+                    <li>
+                      <strong>Extension:</strong> {props.extension}
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <div className="col-md-4">
+              <div className="card-body nameCard">
                 <ul>
                     <li>
                       <strong>Name:</strong> {props.name}
